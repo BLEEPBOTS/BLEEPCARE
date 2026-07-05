@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* BleepCare Design System — Navy Medical Theme */
+
+@layer base {
+  :root {
+    /* Surface */
+    --background: 210 20% 97%;
+    --foreground: 220 40% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 40% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 40% 12%;
+
+    /* Brand: deep navy */
+    --primary: 220 52% 18%;
+    --primary-foreground: 210 40% 98%;
+
+    /* Secondary: cool slate */
+    --secondary: 210 18% 93%;
+    --secondary-foreground: 220 40% 18%;
+
+    /* Muted text / backgrounds */
+    --muted: 210 18% 93%;
+    --muted-foreground: 215 16% 48%;
+
+    /* Accent: medical teal */
+    --accent: 193 80% 42%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Status */
+    --success: 152 55% 38%;
+    --success-foreground: 0 0% 100%;
+    --success-subtle: 152 50% 93%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --warning-subtle: 38 90% 93%;
+
+    --critical: 0 78% 52%;
+    --critical-foreground: 0 0% 100%;
+    --critical-subtle: 0 78% 94%;
+
+    /* Sidebar — dark navy */
+    --sidebar-bg: 220 52% 14%;
+    --sidebar-fg: 210 40% 88%;
+    --sidebar-muted: 220 35% 60%;
+    --sidebar-active-bg: 220 52% 22%;
+    --sidebar-active-fg: 0 0% 100%;
+    --sidebar-border: 220 40% 20%;
+    --sidebar-accent: 193 80% 52%;
+
+    --destructive: 0 78% 52%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 20% 88%;
+    --input: 214 20% 88%;
+    --ring: 193 80% 42%;
+
+    --radius: 0.625rem;
+
+    /* Keep sidebar vars for shadcn compat */
+    --sidebar-background: 220 52% 14%;
+    --sidebar-foreground: 210 40% 88%;
+    --sidebar-primary: 193 80% 52%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 52% 22%;
+    --sidebar-accent-foreground: 210 40% 88%;
+    --sidebar-border: 220 40% 20%;
+    --sidebar-ring: 193 80% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
+  }
+  h1, h2, h3, h4, h5 {
+    text-wrap: balance;
+    letter-spacing: -0.02em;
+  }
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer utilities {
+  /* Status badge helpers */
+  .status-normal {
+    @apply bg-[hsl(var(--success-subtle))] text-[hsl(var(--success))] font-medium;
+  }
+  .status-warning {
+    @apply bg-[hsl(var(--warning-subtle))] text-[hsl(155_0%_30%)] font-medium;
+  }
+  .status-critical {
+    @apply bg-[hsl(var(--critical-subtle))] text-[hsl(var(--critical))] font-medium;
+  }
+  /* Pulse animation for live indicator */
+  .pulse-dot {
+    animation: pulse-ring 2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+  }
+}
+
+@keyframes pulse-ring {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.85); }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(14px); filter: blur(3px); }
+  to   { opacity: 1; transform: translateY(0);   filter: blur(0); }
+}
+
+@keyframes slide-in-left {
+  from { opacity: 0; transform: translateX(-16px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.animate-slide-in-left {
+  animation: slide-in-left 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.anim-delay-100 { animation-delay: 0.1s; }
+.anim-delay-200 { animation-delay: 0.2s; }
+.anim-delay-300 { animation-delay: 0.3s; }
+.anim-delay-400 { animation-delay: 0.4s; }
