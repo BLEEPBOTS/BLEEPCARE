@@ -1,4 +1,4 @@
-# BleepCare
+# BleepCare Dashboard
 
 Real-time patient monitoring system for caregivers. Devices stream vitals and alerts over MQTT; the bridge ingests them into MongoDB and broadcasts over WebSocket; the Express API serves the frontend; caretakers and hospital staff respond through a React dashboard.
 
