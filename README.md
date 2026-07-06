@@ -88,19 +88,20 @@ A web application for caregivers, hospital staff and administrators to monitor p
 
 ```
 bleepcare/
-├── README.md                  ← you are here — full system overview
-├── device/
-│   ├── README.md              ← device setup instructions
-│   └── bleepcare-firmware.ino
-├── bridge/
-│   ├── README.md              ← bridge setup instructions
-│   └── index.js
 ├── backend/
 │   ├── README.md              ← backend setup instructions
 │   └── ...
+├── bridge/
+│   ├── README.md              ← bridge setup instructions
+│   └── index.js
+├── device/
+│   ├── README.md              ← device setup instructions
+│   └── bleepcare-firmware.ino
 └── frontend/
     ├── README.md              ← frontend setup instructions
     └── src/
+├──AGENTS.md                   ← AI agent contribution guidelines
+├── README.md                  ← you are here — full system overview
 ```
 
 ---
