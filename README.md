@@ -1,4 +1,4 @@
-# BleepCare - Remote Patient Vitals Monitoring System
+# BleepCare - Remote Patient Vitals Monitoring And Emergency Alert System
 
 > Developed by Electronics and Communications Engineering students at the **Uganda Institute of Information and Communications Technology (UICT)** under the **UJ-CONNECT Programme**, supported by the **Ministry of ICT and National Guidance** and **JICA** · 2026
 
