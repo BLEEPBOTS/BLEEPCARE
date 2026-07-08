@@ -14,7 +14,7 @@
 
 ### Problem
 
-After hospital discharge, patients in Uganda especially those in rural and peri-urban areas have no means of continuous health monitoring. Caregivers and clinicians cannot detect deteriorating vitals such as a falling heart rate, low blood oxygen, high fever, or a fall event until the patient physically returns to a facility, often too late for timely intervention.
+After hospital discharge, patients managing chronic illnesses including cardiovascular disease, respiratory conditions, diabetes and sepsis have no means of continuous health monitoring. The vitals most critical to these conditions: heart rate, blood oxygen, body temperature, and physical stability, can deteriorate rapidly outside a clinical setting. Caregivers and clinicians cannot detect these changes until the patient physically returns to a facility, often too late for timely intervention.
 
 ### Solution
 
