@@ -6,8 +6,7 @@
 
 ## Project Title
 
-**BleepCare** - A wearable IoT health monitor for remote post-discharge patient monitoring in Uganda.
-
+**BleepCare** - A wearable Remote Patient Vitals Monitoring And Emergency Alert Device
 ---
 
 ## Problem & Solution
