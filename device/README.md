@@ -17,7 +17,7 @@ Custom-built wearable that reads patient vitals, detects falls and collisions, a
 | ST7789 240×280 TFT | Live vitals display | SPI |
 | Buzzer | SOS + alert tones | GPIO 14 |
 | SOS Button | 3-second hold-to-confirm emergency | GPIO 13 |
-| 3.7V LiPo Battery (2800mAh) | Primary power source | — |
+| 3.7V LiPo Battery | Primary power source | — |
 | TP4056 | LiPo charging module | — |
 | XL6009 DC-DC Boost Converter | Steps up LiPo voltage to 5V for ESP32 and peripherals | — |
 
