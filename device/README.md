@@ -1,6 +1,6 @@
 # Device — BleepCare ESP32 Wristband
 
-Custom-built wearable that reads patient vitals, detects falls and collisions, and publishes live data to the cloud over GPRS or WiFi. On any emergency it fires an MQTT alert, sounds a buzzer, sends an SMS, and places a voice call to the caregiver.
+Custom-built wearable that reads patient vitals, detects falls and collisions and publishes live data to the cloud over GPRS or WiFi. On any emergency it fires an MQTT alert, sounds a buzzer, sends an SMS and places a voice call to the caregiver.
 
 ---
 
