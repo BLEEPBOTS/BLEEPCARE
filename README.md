@@ -239,7 +239,7 @@ Once all four components are running:
 1. Power on the wristband
 2. Open the [HiveMQ WebSocket Client](https://www.hivemq.com/demos/websocket-client/) and subscribe to `bleepcare/#` vitals frames should appear every 30 seconds
 3. Open the dashboard at `http://localhost:5173` patient vitals should update live
-4. Hold the SOS button on the device for 3 seconds an alert should appear in the dashboard and an SMS should arrive on the caregiver's phone
+4. Hold the SOS button on the device for 3 seconds an alert should appear in the dashboard and an SMS should arrive on the caregiver's phone as well as a phone call from the patients device.
 
 ---
 
