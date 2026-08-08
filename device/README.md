@@ -44,7 +44,7 @@ Custom-built wearable that reads patient vitals, detects falls and collisions an
 | **Power** | **Connected to** |
 | XL6009 VOUT (5V) | ESP32 VIN, SIM900 VCC |
 | XL6009 GND | ESP32 GND, SIM900 GND |
-| SIM900 VCC | 5V from XL6009 (must supply up to 2A use thick wire) |
+| SIM900 VCC | 5V from XL6009 (must supply up to 2A, use thick wire) |
 | SIM900 GND | Common GND |
 | TP4056 OUT+ | XL6009 VIN+ |
 | TP4056 OUT- | XL6009 VIN- (GND) |
